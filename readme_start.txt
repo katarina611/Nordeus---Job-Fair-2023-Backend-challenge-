@@ -1,0 +1,1 @@
+Application won't build if the database is not set up correctly in "resources/application.properties". I added two dependencies, `spring-boot-starter-data-jpa` and `mysql-connector-j`, which are set in the pom.xml. Without them, the code won't work as well.
